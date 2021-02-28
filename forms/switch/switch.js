@@ -15,29 +15,25 @@ valuesArraySwitch.push(userFirstNameSwitch)
 valuesArraySwitch.push(userStateSwitch)
 valuesArraySwitch.push(userTempSwitch)
 
-switch () {
-    case :
-        
+switch (true) {
+    case (valuesArraySwitch[1] = 'NE' && valuesArraySwitch[2] < 32):
+        console.log(`${valuesArraySwitch[0]}, ${messagesSwitch[0]}.`)
         break;
-    case :
-        
+    case (valuesArraySwitch[1] = 'NE' && valuesArraySwitch[2] >= 32 && valuesArraySwitch[2] < 50):
+        console.log(`${valuesArraySwitch[0]}, ${messagesSwitch[1]}.`)
         break;
-    case :
-        
+    case (valuesArraySwitch[1] = 'FL' && valuesArraySwitch[2] >= 32 && valuesArraySwitch[2] < 50):
+        console.log(`${valuesArraySwitch[0]}, ${messagesSwitch[2]}.`)
         break;
-    case :
-        
+    case (valuesArraySwitch[1] = 'FL' && valuesArraySwitch[2] >= 50 && valuesArraySwitch[2] < 70):
+        console.log(`${valuesArray[0]}, ${messages[3]}.`)
         break;
+    default:
+        console.log(`${valuesArraySwitch[0]}, I can't help you.`)
 }
 
-
-if (valuesArraySwitch[1] = 'NE' && valuesArraySwitch[2] < 32)
-    console.log(`${valuesArraySwitch[0]}, ${messagesSwitch[0]}.`)
-else if (valuesArraySwitch[1] = 'NE' && valuesArraySwitch[2] >= 32 && valuesArraySwitch[2] < 50)
-    console.log(`${valuesArraySwitch[0]}, ${messagesSwitch[1]}.`)
-else if (valuesArraySwitch[1] = 'FL' && valuesArraySwitch[2] >= 32 && valuesArraySwitch[2] < 50)
-    console.log(`${valuesArraySwitch[0]}, ${messagesSwitch[2]}.`)
-else if (valuesArraySwitch[1] = 'FL' && valuesArraySwitch[2] >= 50 && valuesArraySwitch[2] < 70)
-    console.log(`${valuesArraySwitch[0]}, ${messagesSwitch[3]}.`)
-else
-    console.log(`${valuesArraySwitch[0]}, I can't help you.`)
+    
+    
+    
+    
+    
